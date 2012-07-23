@@ -16,8 +16,9 @@ function init()
 
 function refreshFeed()
 {
+
 	jQuery.getFeed({
-	   url: "http://www.wirel.com.ar/php/proxy.php?url="+url,
+	   url: "http://sauron.wirel.com.ar/jqueryiu/php/proxy.php?url="+url,
 	   success: function(feed) 
 	   {
 	   		$("#page2 ul").append('<li data-role="divider" data-theme="b">'+feed.title+'</li>');
