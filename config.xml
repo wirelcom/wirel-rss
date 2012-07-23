@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.wirel.rss"
+        versionCode="10" 
+        version   = "1.0.0">
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>Wirel Rss</name>
+
+    <description>
+        	
+Lector de noticias RSS ligero y sin complicaciones.
+    </description>
+
+    <author href="https://wirel.com.ar" email="info@wirel.com.ar">
+        Wirel Argentina	
+    </author>
+
+<icon src="icon.png" />

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.5.2.min.js"></script>
+	<script src="js/main.js" type="text/javascript" charset="utf-8"></script>
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0a4.1/jquery.mobile-1.0a4.1.min.css" />
+	<script type="text/javascript" src="http://code.jquery.com/mobile/1.0a4.1/jquery.mobile-1.0a4.1.min.js"></script>
+	<script type="text/javascript" src="jfeed/build/dist/jquery.jfeed.pack.js"></script>
+</head>
+<body onload="init()">
+<!-- begin first page -->
+<section id="page1" data-role="page" data-theme="b">
+	<header data-role="header">
+		<h1><img src="logo.png"></h1>
+	</header>
+
+	<div data-role="content" class="content">
+		<ul data-role="listview" data-inset="true" data-theme="a">
+			<li data-role="divider" data-theme="b">Novedades de Wirel Argentina</li>
+			<li onclick="url='http://wirel.com.ar/blog/feed/'"><a href="#page2">Rss Feed Wirel Argentina</a><img src="assets/icons/rss.png" class="ui-li-icon"></li>
+		</ul>
+		
+		<ul data-role="listview" data-inset="true" data-theme="a">
+			<li data-role="divider" data-theme="b">Marketing</li>
+			<li onclick="url='http://www.marketingdirecto.com/noticias/actualidad/'"><a href="#page2">Actualidad</a><img src="assets/icons/rss.png" class="ui-li-icon"></li>
+			<li onclick="url='http://www.marketingdirecto.com/noticias/e-libros/'"><a href="#page2">E-Libros</a><img src="assets/icons/rss.png" class="ui-li-icon"></li>
+			<li onclick="url='http://www.marketingdirecto.com/noticias/especiales/'"><a href="#page2">Especiales</a><img src="assets/icons/rss.png" class="ui-li-icon"></li>
+			<li onclick="url='http://www.marketingdirecto.com/noticias/punto-de-vista/'"><a href="#page2">Puntos de Vista</a><img src="assets/icons/rss.png" class="ui-li-icon"></li>	
+   		<li onclick="url='http://www.marketingdirecto.com/noticias/videos-2/'"><a href="#page2">Videos</a><img src="assets/icons/rss.png" class="ui-li-icon"></li>	
+    		<li onclick="url='http://www.marketingdirecto.com/noticias/creacion/'"><a href="#page2">Creacion</a><img src="assets/icons/rss.png" class="ui-li-icon"></li>
+		</ul>
+		
+		<ul data-role="listview" data-inset="true" data-theme="a">
+			<li data-role="divider" data-theme="b">Tecnologia</li>
+			<li onclick="url='http://www.infobae.com/rss/tecnologia.xml'"><a href="#page2">Infobae</a><img src="assets/icons/rss.png" class="ui-li-icon"></li>
+			<li onclick="url='http://www.rsstecnologia.com/feed/"><a href="#page2">RSS Tecnologia</a><img src="assets/icons/rss.png" class="ui-li-icon"></li>
+			<li onclick="url='http://www.20minutos.es/rss/tecnologia/'"><a href="#page2">20 Minutos España</a><img src="assets/icons/rss.png" class="ui-li-icon"></li>
+			<li onclick="url='http://feeds.feedburner.com/fayerwayer'"><a href="#page2">Fayerwayer</a><img src="assets/icons/rss.png" class="ui-li-icon"></li>
+		</ul>
+	</div>
+
+	<footer data-role="footer">
+		<h2>Powered by Wirel Argentina</h2>
+	</footer>
+</section>
+<!-- end first page -->
+
+<!-- begin second page -->
+<section id="page2" data-role="page" data-theme="b">
+	<header data-role="header">
+			<h1>Wirel Argentina RSS Feed</h1>
+	</header>
+	
+	<div data-role="content" class="content">
+		<ul data-role="listview" data-inset="true" data-theme="a">
+	
+		</ul>
+	</div>
+	
+	<footer data-role="footer">
+			<h2>Powered by Wirel Argentina</h2>
+	</footer>
+</section>
+<!-- end second page -->
+	</body>
+</html>
